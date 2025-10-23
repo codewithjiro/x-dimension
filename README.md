@@ -1,16 +1,16 @@
-🧱 Super Mario Dimension – Item & Character Discovery Platform
+# 🧱 Super Mario Dimension – Item & Character Discovery Platform
 
 Live Link: https://x-dimension-nine.vercel.app
 
 Super Mario Dimension is a Reddit-inspired platform for discovering, sharing, and discussing items, characters, and secrets from the Mario universe.
 
-🎮 Features:
+# 🎮 Features:
 - Discover hundreds of Mario items and characters
 - Share discoveries, theories, and fan creations
 - Build your personal item collection
 - Connect with the Mario fan community
 
-🛠 Tech Stack
+# 🛠 Tech Stack
 Frontend:
 - Next.js 14 (App Router)
 - TypeScript
@@ -21,7 +21,7 @@ Frontend:
 - React Hook Form
 - Sonner
 
-Backend:
+# Backend:
 - Node.js
 - Drizzle ORM
 - PostgreSQL
@@ -29,7 +29,7 @@ Backend:
 - Uploadthing (File Uploads)
 - Next.js API Routes
 
-Deployment:
+# Deployment:
 - Hosted on Vercel
 - Database: Vercel Postgres
 - File Storage: Uploadthing (AWS S3)
