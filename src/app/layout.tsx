@@ -10,7 +10,7 @@ import { NextSSRPlugin } from "@uploadthing/react/next-ssr-plugin";
 export const metadata: Metadata = {
   title: "XDimension",
   description: "Mario Item Database and API",
-  icons: [{ rel: "icon", url: "/favicon.ico" }],
+  icons: [{ rel: "icon", url: "/icon.ico" }],
 };
 
 const geist = Geist({

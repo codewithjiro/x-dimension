@@ -59,39 +59,39 @@ export default function HomePage() {
   const featuredItems = [
     {
       id: 1,
-      name: "Dragon Slayer Sword",
-      category: "Weapon",
-      rarity: "Legendary",
+      name: "Super Mushroom",
+      category: "Power-Up",
+      rarity: "Common",
       description:
-        "A mighty sword forged in dragon fire, capable of slicing through any armor.",
-      votes: 245,
-      comments: 42,
-      user: "epic_gamer",
-      timestamp: "2 hours ago",
+        "A classic red-and-white mushroom that makes Mario grow bigger and stronger instantly.",
+      votes: 512,
+      comments: 87,
+      user: "mariofan_64",
+      timestamp: "1 hour ago",
     },
     {
       id: 2,
-      name: "Phoenix Feather",
-      category: "Collectible",
-      rarity: "Mythic",
+      name: "Fire Flower",
+      category: "Power-Up",
+      rarity: "Rare",
       description:
-        "Rare feather that grants temporary invincibility when used in crafting.",
-      votes: 189,
-      comments: 31,
-      user: "item_hunter",
-      timestamp: "5 hours ago",
+        "Grants the power to throw fireballs — perfect for taking down Goombas and Koopas alike.",
+      votes: 468,
+      comments: 73,
+      user: "luigi_time",
+      timestamp: "3 hours ago",
     },
     {
       id: 3,
-      name: "Frost Guardian Armor",
-      category: "Armor",
-      rarity: "Epic",
+      name: "Star Power",
+      category: "Item",
+      rarity: "Legendary",
       description:
-        "Ice-forged armor that provides immunity to fire attacks and freeze resistance.",
-      votes: 167,
-      comments: 28,
-      user: "frost_mage",
-      timestamp: "1 day ago",
+        "Turns the user invincible for a short period, glowing with unstoppable energy and speed.",
+      votes: 620,
+      comments: 104,
+      user: "princess_peach",
+      timestamp: "6 hours ago",
     },
   ];
 
@@ -195,18 +195,20 @@ export default function HomePage() {
                 </span>
               </motion.div>
 
-              {/* Main Heading */}
               <motion.h1
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.3, duration: 0.7 }}
                 className="text-4xl leading-tight font-black text-slate-900 sm:text-5xl sm:leading-tight lg:text-6xl lg:leading-tight dark:text-white"
               >
-                Discover & Share{" "}
+                Discover & Visualize{" "}
                 <span className="bg-gradient-to-r from-orange-500 to-red-500 bg-clip-text text-transparent">
-                  Game Items
+                  Game Data
                 </span>{" "}
-                That Matter
+                from the{" "}
+                <span className="bg-gradient-to-r from-yellow-400 to-red-500 bg-clip-text text-transparent">
+                  MarioX API
+                </span>
               </motion.h1>
 
               {/* Subtitle */}

@@ -197,8 +197,8 @@ export default function DashboardPage() {
     name: "",
     category: "",
     type: "",
-    power: "None",
-    effect: "None",
+    power: "",
+    effect: "",
     rarity: "",
     description: "",
     imageUrl: "",
@@ -986,7 +986,7 @@ export default function DashboardPage() {
                     <div className="rounded-lg border border-slate-200 bg-slate-50/50 p-8 dark:border-slate-800 dark:bg-slate-800/50">
                       <Database className="mx-auto h-12 w-12 text-slate-400" />
                       <h3 className="mt-4 text-xl font-semibold text-slate-900 dark:text-white">
-                        ⚠️ Rate limit exceeded
+                        ⚠️ No items found
                       </h3>
                       <p className="mt-2 text-slate-600 dark:text-slate-400">
                         {filters.search ||
